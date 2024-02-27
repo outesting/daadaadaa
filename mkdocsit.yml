@@ -1,0 +1,8 @@
+site_name: daadaadaa
+site_description: daadaa
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
