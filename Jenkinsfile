@@ -5,7 +5,8 @@ pipeline {
         stage('Checkout code') {
             steps {
                 checkout scm
-                sh 'ls -la'
+                sh 'chmod +x run.sh'
+                sh './run.sh'
             }
         }
     }
