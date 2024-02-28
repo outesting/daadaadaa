@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AZURE_ACCOUNT_NAME = credentials('AZURE_ACCOUNT_NAME')
-        AZURE_ACCOUNT_KEY = credentals('AZURE_ACCOUNT_KEY')
+        AZURE_ACCOUNT_KEY = credentials('AZURE_ACCOUNT_KEY')
         TECHDOCS_BLOB_STORAGE_NAME = credentials('TECHDOCS_BLOB_STORAGE_NAME')
         ENTITY_NAMESPACE = 'default'
         ENTITY_KIND = 'Component'
