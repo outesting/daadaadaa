@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout code') {
             steps {
                 checkout scm
-                sh 'echo requirements.txt'
+                sh 'cat requirements.txt'
             }
         }
     }
