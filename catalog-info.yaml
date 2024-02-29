@@ -11,4 +11,4 @@ metadata:
 spec:
   type: repository
   lifecycle: experimental
-  owner: "group:default/admin"
+  owner: "group:default/guests"
