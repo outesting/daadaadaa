@@ -6,6 +6,8 @@ metadata:
   annotations:
     github.com/project-slug: outesting/daadaadaa
     backstage.io/techdocs-ref: dir:.
+    # instanceName and github-organization-project-name are optional. The value is a string and should be enclosed in double quotes ""
+    jenkins.io/job-full-name: "techdocs"
 spec:
   type: repository
   lifecycle: experimental
