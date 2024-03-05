@@ -2,11 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout code') {
+        stage('Test Jenkins') {
             steps {
-                checkout scm
-                sh 'chmod +x run.sh'
-                sh './run.sh'
+                sh 'sleep 10'
+                sh 'echo "Hello, World!"'
             }
         }
     }
