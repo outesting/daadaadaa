@@ -8,6 +8,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     # instanceName and github-organization-project-name are optional. The value is a string and should be enclosed in double quotes ""
     jenkins.io/job-full-name: "techdocs"
+    prometheus.io/alert: all
 spec:
   type: repository
   lifecycle: experimental
